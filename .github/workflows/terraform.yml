@@ -15,5 +15,5 @@ jobs:
 
       - name: Terraform fmt
         id: fmt
-        run: terraform fmt ---recursive -check
+        run: terraform fmt -recursive -check
         continue-on-error: false
