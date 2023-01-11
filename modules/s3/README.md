@@ -1,6 +1,7 @@
 # `s3` module
 
 Create an S3 bucket.
+This is a legacy module only, use the `s3-bucket` module instead.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
