@@ -1,7 +1,9 @@
 variable "hosted_zone_name" {
-  type = string
+  description = "The domain for the zone, e.g. `login.walletconnect.com`, this will result in the certificate of `*.login.walletconnect.com`"
+  type        = string
 }
 
 variable "fqdn" {
-  type = string
+  description = ""
+  type        = string
 }
